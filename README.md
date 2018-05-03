@@ -13,9 +13,11 @@ It uses Embedded System (NodeMCU) and Internet of Things technology so user has 
   
 Download the circuit diagram, Make the connections as per the circuit diagram given in the repository after completing the connections.
 
-Download the source code and make thes changes in the source code
-            1)update the char auth[] with your authentication key of blynk account
-            2)update ssid and pass with your WiFi credentials
+Download the source code and make these changes in the source code.
+
+      1)update the char auth[] with your authentication key of blynk account
+      2)update ssid and pass with your WiFi credentials
+      
 Now save the code and dump the code to NodeMCU using Aurduino IDE.
 
 Now open the blynk app from your mobile and start controlling the project, The internet of things technology provides the monitoring of the process and person can observe the count on smart phone. 
