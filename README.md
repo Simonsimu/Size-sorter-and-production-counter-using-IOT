@@ -1,14 +1,22 @@
-This is an industrial automation based application.
-It shows the concept of normal conveyor belt, but with some intelligence. 
-We can also call it as intelligent conveyor belt, as it has an ability to sort the object of different sizes.
+# Industrial Size Sorter and Production Counter using IOT
 
-This helps to avoid size malfunctioning in production machines. 
-In the core of the project, Embedded System (NodeMCU) and Internet of Things technology have been used. 
-The NodeMCU is brain of the system and controls the relay and drives servo motor according to input from size sorting sensors.
+It is an industrial automation based application,It has an ability to sort the products of different sizes and update the count of the products manfactured at the particular interval of time on the internet.
 
-IR rays in photodiode are used for detection. 
-When the objects of different sizes are passed through the sensors and the object having specified size is sorted. 
-The belt is driven by drive circuit which is controlled by Push button.
+It uses Embedded System (NodeMCU) and Internet of Things technology so user has the beifit of using it from anywhere.
 
-The internet of things technology provides the monitoring of the process and person can observe the count on smart phone. 
+# Pre-Requisites:
+  1.Node MCU
+  2.BLYNK app
+  3.Aurduino Software IDE
+  4.ServoMoter
+  5.IR sensors
+  
+Make the connections as per the circuit diagram given in the repository after completing the connections.
+
+Download the source code and make thes changes in the source code
+1)update the char auth[] with your authentication key of blynk account
+2)update ssid and pass with your WiFi credentials
+Now save the code and dump the code to NodeMCU using Aurduino IDE.
+
+Now open the blynk app from your mobile and start controlling the project, The internet of things technology provides the monitoring of the process and person can observe the count on smart phone. 
 By developing such sorting system the production rate of the manufacturing industry has been increased since these sorting systems replaced the human resources.
