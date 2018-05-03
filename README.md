@@ -5,11 +5,11 @@ It is an industrial automation based application,It has an ability to sort the p
 It uses Embedded System (NodeMCU) and Internet of Things technology so user has the beifit of using it from anywhere.
 
 # Pre-Requisites:
-  1.Node MCU
-  2.BLYNK app
-  3.Aurduino Software IDE
-  4.ServoMoter
-  5.IR sensors
+      1.Node MCU
+      2.BLYNK app
+      3.Aurduino Software IDE
+      4.ServoMoter
+      5.IR sensors
   
 Make the connections as per the circuit diagram given in the repository after completing the connections.
 
