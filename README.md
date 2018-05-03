@@ -7,7 +7,7 @@ It uses Embedded System (NodeMCU) and Internet of Things technology so user has 
 # Pre-Requisites:
       1.Node MCU
       2.BLYNK app
-      3.Aurduino Software IDE
+      3.Aurduino IDE Software
       4.ServoMoter
       5.IR sensors
   
